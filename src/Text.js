@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Text = () => {
-  const { t, i18n } = useTranslation(["order"]);
+  const { t, i18n } = useTranslation("order");
   const { t: trans } = useTranslation("common");
 
   const handleChangeLng = (e, lng) => {
